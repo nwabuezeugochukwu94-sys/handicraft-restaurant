@@ -1,0 +1,505 @@
+body{
+    margin: 0;
+}
+#container{
+    height: auto;
+    overflow: hidden;
+    margin:0;
+    padding:0;
+}
+#navbar{
+    /*background-color: bisque;*/
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+}
+#navbar ul{
+    list-style-type: none;
+    display: block;
+    padding-left: 30px;
+    margin: 0;
+    text-align: center;
+}
+#navbar ul li{
+    padding-left:0;
+    display: inline-block;
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 20px;
+    transition: 0.5s;
+    display: block;
+}
+#banner{
+    background-image:linear-gradient(rgba(0,0,0,0.70)),url(restaurant.jpg);
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+#hand{
+    width: 100%;
+    height: 240px;
+    overflow: hidden;
+    padding: 0;
+}
+#hand h1{
+    color:white;
+    padding-left: 230px;
+    color: white;
+    font-weight: bold;
+    font-family: Comic Sans MS;
+    font-size: 100px;
+    padding-top: 40px;
+}
+#p1{
+    font-size: 35px;
+    padding-left: 230px;
+    width: 700px;
+    color: white;
+    font-family: Chiller;
+    margin-top: -40px;
+    padding-bottom: -10px;
+}
+#p2{
+    font-size: 45px;
+    padding-left: 230px;
+    color: white;
+    font-family: Chiller;
+    padding-top: -10px;
+    margin-top: -20px;
+}
+#p2 span{
+    font-family: Chiller;
+    font-size: 60px;
+}
+#product{
+    background-color: white;
+    overflow: hidden;
+    padding-top: 0;
+    margin-top: 0;
+}
+#product h1{
+    font-size: 60px;
+    color: orangered;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 35px;
+    margin-top: 0;
+    font-family: Cooper Black;
+}
+#showcase{
+    background-color: rgb(212, 211, 211);
+    width: 90%;
+    height: 700px;
+    margin: auto;
+    display: flex;
+    overflow: hidden;
+    border: 2px solid rgb(212, 211, 211);
+    box-shadow: 0px 0px 20px 10px gray;
+    border-radius: 40px;
+}
+#content1{
+    /*background-color: blue;*/
+    height: 750px;
+    width: 23%;
+    float: left;
+    margin:0 1% 0  1%;
+    overflow: hidden;
+}
+#content2{
+    /*background-color: red;*/
+    height: 750px;
+    width: 23%;
+    float: left;
+    margin:0 1% 0  1%;
+    overflow: hidden;
+}
+#content3{
+    /*background-color: gold;*/
+    height: 750px;
+    width: 23%;
+    float: left;
+    margin:0 1% 0  1%;
+    overflow: hidden;
+}
+#content4{
+    /*background-color: brown;*/
+    height: 750px;
+    width: 23%;
+    float: left;
+    margin:0 1% 0  1%;
+    overflow: hidden;
+}
+#image1{
+    width: 100%;
+    padding: 0px;
+    overflow: hidden;
+    border-radius: 50px;
+}
+#image1 img{
+    width: 100%;
+    height: 450px;
+    transform: rotate(35deg);
+    transition: 0.5s;
+}
+#image1 img:hover{
+    transform: scale(1.1);
+}
+#image2{
+    width: 100%;
+    padding: 0px;
+    overflow: hidden;
+    border-radius: 50px;
+}
+#image2 img{
+    width: 100%;
+    height: 450px;
+    transform: rotate(35deg);
+    transition: 0.5s;
+}
+#image2 img:hover{
+    transform: scale(1.1);
+}
+#image3{
+    width: 100%;
+    padding: 0px;
+    overflow: hidden;
+    border-radius: 50px;
+}
+#image3 img{
+    width: 100%;
+    height: 450px;
+    transform: rotate(35deg);
+    transition: 0.5s;
+}
+#image3 img:hover{
+    transform: scale(1.1);
+}
+#image4{
+    width: 100%;
+    padding: 0px;
+    overflow: hidden;
+    border-radius: 50px;
+}
+#image4 img{
+    width: 100%;
+    height: 450px;
+    transform: rotate(35deg);
+    transition: 0.5s;
+}
+#image4 img:hover{
+    transform: scale(1.1);
+}
+#heading1{
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+#heading2{
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+#heading3{
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+#heading4{
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+#text1{
+    font-size: 20px;
+    font-weight: 80px;
+    text-align: center;
+    font-family: Gabriola;
+}
+#text2{
+    font-size: 20px;
+    font-weight: 80px;
+    text-align: center;
+    font-family: Gabriola;
+}
+#text3{
+    font-size: 20px;
+    font-weight: 80px;
+    text-align: center;
+    font-family: Gabriola;
+}
+#text4{
+    font-size: 20px;
+    font-weight: 80px;
+    text-align: center;
+    font-family: Gabriola;
+}
+#about{
+    background-color: white;
+    overflow: hidden;
+    padding-top: 0;
+    margin-top: 40px;
+}
+#about h1{
+    font-size: 60px;
+    color: orangered;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 35px;
+    margin-top: 0;
+    font-family: Cooper Black;
+}
+#end{
+    width: 90%;
+    height: 300px;
+    background-color: aqua;
+    margin: auto;
+}
+#about1{
+    background-color: white;
+    width: 45%;
+    height: 150px;
+    float: left;
+}
+#about1 p{
+    font-size: 20px;
+}
+#fade1{
+    background-color: white;
+    width: 10%;
+    height: 150px;
+    float: left;
+}
+#about2{
+    background-color: white;
+    width: 45%;
+    height: 150px;
+    float: right;
+}
+#about2 p{
+    font-size: 20px;
+    color: rgb(136, 132, 132);
+}
+#about3{
+    background-color: white;
+    width: 45%;
+    height: 150px;
+    float: left;
+}
+#about3 p{
+    font-size: 20px;
+    color: rgb(136, 132, 132);
+}
+#fade2{
+    background-color: white;
+    width: 10%;
+    height: 150px;
+    float: left;
+}
+#about4{
+    background-color: white;
+    width: 45%;
+    height: 150px;
+    float: left;
+}
+#about4 p{
+    font-size: 20px;
+    color: rgb(136, 132, 132);
+}
+#fade1 img{
+    width: 100px;
+    margin: auto;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 25px;
+}
+#fade2 img{
+    width: 100px;
+    margin: auto;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 25px;
+}
+#Gallery{
+    background-color: white;
+    overflow: hidden;
+    padding-top: 0;
+    margin-top: 40px;
+}
+#Gallery h1{
+    font-size: 60px;
+    color: orangered;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 35px;
+    margin-top: 0;
+    font-family: Cooper Black;
+}
+#gallery{
+    width: 80%;
+    height: 600px;
+    /*background-color: aqua;*/
+    margin: auto;
+}
+#gallerya{
+    width: 23%;
+    height: 600px;
+    /*background-color: blue;*/
+    float: left;
+    margin: 0 1% 0 1%;
+}
+#galleryb{
+    width: 23%;
+    height: 600px;
+    /*background-color: green;*/
+    float: left;
+    margin: 0 1% 0 1%;
+}
+#galleryc{
+    width: 23%;
+    height: 600px;
+    /*background-color: orangered;*/
+    float: left;
+    margin: 0 1% 0 1%;
+}
+#galleryd{
+    width: 23%;
+    height: 600px;
+    /*background-color: yellow;*/
+    float: left;
+    margin: 0 1% 0 1%;
+}
+#gallerya1{
+    width: 100%;
+    height: 160px;
+    background-color: red;
+    margin: 20px 0 20px 0;
+}
+#gallerya2{
+    width: 100%;
+    height: 160px;
+    background-color: brown;
+    margin: 20px 0 20px 0;
+}
+#gallerya3{
+    width: 100%;
+    height: 160px;
+    background-color: gold;
+    margin: 20px 0 20px 0;
+}
+#galleryb1{
+    width: 100%;
+    height: 160px;
+    background-color: purple;
+    margin: 20px 0 20px 0;
+}
+#galleryb2{
+    width: 100%;
+    height: 160px;
+    background-color: gray;
+    margin: 20px 0 20px 0;
+}
+#galleryb3{
+    width: 100%;
+    height: 160px;
+    background-color: violet;
+    margin: 20px 0 20px 0;
+}
+#galleryc1{
+    width: 100%;
+    height: 160px;
+    background-color: skyblue;
+    margin: 20px 0 20px 0;
+}
+#galleryc2{
+    width: 100%;
+    height: 160px;
+    background-color: seagreen;
+    margin: 20px 0 20px 0;
+}
+#galleryc3{
+    width: 100%;
+    height: 160px;
+    background-color: salmon;
+    margin: 20px 0 20px 0;
+}
+#galleryd1{
+    width: 100%;
+    height: 160px;
+    background-color: chocolate;
+    margin: 20px 0 20px 0;
+}
+#galleryd2{
+    width: 100%;
+    height: 160px;
+    background-color: chartreuse;
+    margin: 20px 0 20px 0;
+}
+#galleryd3{
+    width: 100%;
+    height: 160px;
+    background-color: crimson;
+    margin: 20px 0 20px 0;
+}
+#gallerya1 img{
+    height: 100%;
+    width: 100%;
+}
+#gallerya2 img{
+    height: 100%;
+    width: 100%;
+}
+#gallerya3 img{
+    height: 100%;
+    width: 100%;
+}
+#galleryb1 img{
+    height: 100%;
+    width: 100%;
+}
+#galleryb2 img{
+    height: 100%;
+    width: 100%;
+}
+#galleryb3 img{
+    height: 100%;
+    width: 100%;
+}
+#galleryc1 img{
+    height: 100%;
+    width: 100%;
+}
+#galleryc2 img{
+    height: 100%;
+    width: 100%;
+}
+#galleryc3 img{
+    height: 100%;
+    width: 100%;
+}
+#galleryd1 img{
+    height: 100%;
+    width: 100%;
+}
+#galleryd2 img{
+    height: 100%;
+    width: 100%;
+}
+#galleryd3 img{
+    height: 100%;
+    width: 100%;
+}
