@@ -503,40 +503,93 @@ body{
     height: 100%;
     width: 100%;
 }
-/* Make portrait phone display the desktop-style website */
 @media screen and (max-width: 600px) {
+
+    html,
     body {
-        min-width: 1000px;
-        overflow-x: auto;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
     }
 
     #container {
-        min-width: 1000px;
+        width: 1000px;
+        transform: scale(0.40);
+        transform-origin: top left;
     }
 
+    /* NAVBAR */
     #navbar {
-        width: 100%;
+        width: 1000px;
+        overflow: visible;
     }
 
-    #banner {
-        width: 100%;
+    #navbar ul {
+        width: 1000px;
+        white-space: nowrap;
+        padding-left: 30px;
+        margin: 0;
     }
 
+    #navbar ul li {
+        display: inline-block;
+        white-space: nowrap;
+    }
+
+    #navbar ul li a {
+        display: block;
+    }
+
+    /* PRODUCT */
     #showcase {
         width: 90%;
         display: flex;
+        flex-wrap: nowrap;
     }
 
     #content1,
     #content2,
     #content3,
     #content4 {
+        flex-shrink: 0;
         width: 23%;
-        float: left;
+        float: none;
     }
 
+    /* ABOUT */
+    #end {
+        width: 90%;
+        height: 300px;
+        overflow: hidden;
+    }
+
+    #about1,
+    #about2,
+    #about3,
+    #about4 {
+        float: left;
+        width: 45%;
+        height: 150px;
+        overflow: hidden;
+    }
+
+    #fade1,
+    #fade2 {
+        display: block;
+        float: left;
+        width: 10%;
+        height: 150px;
+    }
+
+    #fade1 img,
+    #fade2 img {
+        width: 100px;
+    }
+
+    /* GALLERY */
     #gallery {
         width: 80%;
+        height: 600px;
     }
 
     #gallerya,
@@ -544,6 +597,7 @@ body{
     #galleryc,
     #galleryd {
         width: 23%;
+        height: 600px;
         float: left;
     }
 }
