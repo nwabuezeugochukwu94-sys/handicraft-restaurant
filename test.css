@@ -503,3 +503,18 @@ body{
     height: 100%;
     width: 100%;
 }
+* { box-sizing: box-sizing; }
+img { max-width: 100%; height: auto; }
+
+#container, #navbar {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+@media (max-width: 768px) {
+  ul { 
+    display: flex; 
+    flex-direction: column; 
+  }
+  li { margin: 5px 0 !important; }
+}
