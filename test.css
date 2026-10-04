@@ -503,47 +503,20 @@ body{
     height: 100%;
     width: 100%;
 }
-/* Make portrait phone display the desktop-style website */
 @media screen and (max-width: 600px) {
+
+    html {
+        overflow-x: hidden;
+    }
+
     body {
-        min-width: 1000px;
-        overflow-x: auto;
+        margin: 0;
+        overflow-x: hidden;
     }
 
     #container {
-        min-width: 1000px;
-    }
-
-    #navbar {
-        width: 100%;
-    }
-
-    #banner {
-        width: 100%;
-    }
-
-    #showcase {
-        width: 90%;
-        display: flex;
-    }
-
-    #content1,
-    #content2,
-    #content3,
-    #content4 {
-        width: 23%;
-        float: left;
-    }
-
-    #gallery {
-        width: 80%;
-    }
-
-    #gallerya,
-    #galleryb,
-    #galleryc,
-    #galleryd {
-        width: 23%;
-        float: left;
+        width: 1000px;
+        transform: scale(0.40);
+        transform-origin: top left;
     }
 }
